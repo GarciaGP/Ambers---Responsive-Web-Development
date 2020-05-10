@@ -18,62 +18,58 @@
             <div class="menu">
                 <div>
                     <ul>
-                        <li><a href="index.html" target="_blank">Início</a></li>
-                        <li><a href="series.html">Séries</a></li>
-                        <li><a href="filmes.html" target="_blank">Filmes</a></li>
-                        <li><a href="categorias.html" target="_blank">Categorias</a></li>
-                        <li><a href="formulario.html" target="_blank">Entre em contato</a></li>
+                        <li><a href="index.html" class="active">Início</a></li>
+                        <li><a href="series.html" target="">Séries</a></li>
+                        <li><a href="filmes.html" target="">Filmes</a></li>
+                        <li><a href="categorias.html" target="">Categorias</a></li>
+                        <li><a href="formulario.html" target="">Entre em contato</a></li>
                     </ul>
                 </div>
-                <div>
-                    <label for="busca"><span class="fas fa-search"></span></label>
-                    <input type="search" id="busca" name="" value="" placeholder="Busca" maxlength="150" autofocus>
-                    <label for="busca"><span class="fas fa-user"></span></label>
+                <div class="search">
+                    <div>
+                        <label for="busca"><span class="fas fa-search"></span></label>
+                        <input class="main-search" type="search" id="busca" name="" value="" placeholder="Busca" maxlength="150" autofocus>
+                        <!--<label for="busca"><span class="fas fa-user"></span></label>-->
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src="./images./banners/bannerOnceUponATime.jpg" alt="Banner Once Upon A Time">
             </div>
         </div>
     </header>
-    <div class="container">
-        <div>
-            <h2>Próximas séries para assistir</h2>
-            <div>
-                <div class="imagem-da-serie">
-                    <nav>
-                        <a href="vikings.html" target="_blank">
-                            <h3>Vikings</h3>
-                        </a>
-                        <a href="vikings.html" target="_blank"><img src="./images./postersDestaqueSeries/posterVikings.jpg" alt="Poster Vikings"></a>
-                    </nav>
-                </div>
-                <div class="imagem-da-serie">
-                    <nav>
-                        <a href="theBlacklist.html" target="_blank">
-                            <h3>The Blacklist</h3>
-                        </a>
-                        <a href="theBlacklist.html" target="_blank"><img src="./images./postersDestaqueSeries/posterTheBlacklist.jpg"
-                                alt="Poster The Blacklist"></a>
-                    </nav>
-                </div>
-                <div class="imagem-da-serie">
-                    <nav>
-                        <a href="alteredCarbon.html" target="_blank">
-                            <h3>Altered Carbon</h3>
-                        </a>
-                        <a href="alteredCarbon.html" target="_blank"><img src="./images./postersDestaqueSeries/posterAlteredCarbon.jpg"
-                                alt="Poster Altered Carbon"></a>
-                    </nav>
-                </div>
+    <div class="container no-margin ">
+        <div class="header">
+            <div class="header-banner">
+
+                <img class="img-banner" src="./images/banners/bannerMarleyAndMe.jpg" alt="Banner">
             </div>
         </div>
 
         <div>
-            <footer>
-                <p>Atividade 01 - Versão Abril 2020 - Produzido por @Ambers</p>
-            </footer>
+            <h2 class="sub-title">Próximas séries para assistir</h2>
+            <div>
+                <div class="highlights">
+                <div class="imagem-da-serie">
+                    <a href="vikings.html" target="_blank"><img src="./images./postersDestaqueSeries/posterVikings.jpg"
+                            alt="Poster Vikings"></a>
+                </div>
+                <div class="imagem-da-serie">
+                    <a href="theBlacklist.html" target="_blank"><img
+                            src="./images./postersDestaqueSeries/posterTheBlacklist.jpg" alt="Poster The Blacklist"></a>
+                </div>
+                <div class="imagem-da-serie">
+                    <a href="alteredCarbon.html" target="_blank"><img
+                            src="./images./postersDestaqueSeries/posterAlteredCarbon.jpg"
+                            alt="Poster Altered Carbon"></a>
+                </div>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <div>
+        <footer>
+            <p>Atividade 01 - Versão Abril 2020 - Produzido por @Ambers</p>
+        </footer>
+    </div>
     </div>
     <!-- fim do container principal -->
 </body>
