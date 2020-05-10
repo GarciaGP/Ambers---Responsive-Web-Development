@@ -57,14 +57,6 @@ footer p {
   border-bottom: solid 1px #fff;
 }
 
-.menu li a:active {
-  border-bottom: solid 1px #ffc107;
-}
-
-.menu li .active:hover {
-  border-bottom: solid 1px #ffc107;
-}
-
 .menu li a {
   display: block;
   padding: 8px;
@@ -184,7 +176,7 @@ h2 {
 .banner-button {
   display: flex;
   flex-flow: column;
-  margin: 0 5px;
+  margin: 10px 5px 0px 5px;
 }
 
 .banner-button button {
