@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AmbersFlix - Entre em contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li><a href="../index.html" class="active">Início</a></li>
+                        <li><a href="series.html" target="">Séries</a></li>
+                        <li><a href="filmes.html" target="">Filmes</a></li>
+                        <li><a href="categorias.html" target="">Categorias</a></li>
+                        <li><a href="formulario.html" target="">Entre em contato</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <div>
+                        <label for="busca"><span class="fas fa-search"></span></label>
+                        <input class="main-search" type="search" id="busca" name="" value="" placeholder="Busca"
+                            maxlength="150" autofocus>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div>
+            <h1>Solicitação de seriados ou filmes</h1>
+            <p>Quer ver alguma série ou filme na Ambersflix? Conte para a gente abaixo! Este formulário é o único meio
+                de nos enviar solicitações de conteúdo.</p>
+        </div>
+        <div>
+            <form action="">
+                <fieldset>
+                    <input class="input-textos" type="email" id="email" placeholder="Confirme seu E-mail" class="email"
+                        required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input class="input-textos" type="password" id="senha" name="senha" placeholder="Confirme sua senha"
+                        maxlength="10">
+                </fieldset>
+                <fieldset>
+                    <input class="input-textos" type="tel" id="celular" placeholder="Confirme seu celular"
+                        class="celular" required>
+                </fieldset>
+                <fieldset>
+                    <select class="plano-select" name="civil" id="civil">
+                        <option selected disabled>Selecione seu plano</option>
+                        <option value="0">Ambersflix</option>
+                        <option value="1">Ambersflix Prime</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <textarea ig="mensagem" placeholder="Insira sua primeira sugestão aqui" reiz></textarea>
+                </fieldset>
+                <fieldset>
+                    <textarea ig="mensagem" placeholder="Insira sua segunda sugestão aqui"></textarea>
+                </fieldset>
+                <fieldset>
+                    <textarea ig="mensagem" placeholder="Insira sua terceira sugestão aqui"></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="">Selecione a categoria de sua preferência:</label>
+
+                    <div class="radio-container">
+                        <input type="radio" id="humor" name="categoria" value="1">
+                        <label for="humor">Humor</label>
+                    </div>
+
+                    <div class="radio-container">
+                        <input type="radio" id="suspense" name="categoria" value="2">
+                        <label for="suspense">Suspense</label>
+                    </div>
+
+                    <div class="radio-container">
+                        <input type="radio" id="drama" name="categoria" value="3">
+                        <label for="drama">Drama</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" id="ficcao" name="categoria" value="4">
+                        <label for="ficcao">Ficção</label>
+                    </div>
+
+        </div>
+
+        </fieldset>
+        <fieldset>
+            <label for="">Deseja receber nossas notificações?</label>
+
+            <div class="check-container">
+                <input type="checkbox" id="notificacao-email" name="notificacao1" value="1" checked>
+                <label for="notificacao-email">Sim desejo receber todas as notificações via e-mail.</label>
+            </div>
+            <div class="check-container">
+                <input type="checkbox" id="notificacao-sms" name="notificacao2" value="2" checked>
+                <label for="notificacao-sms">Sim desejo receber todas as notificações via sms.</label>
+            </div>
+        </fieldset>
+        </fieldset>
+        <fieldset>
+            <label for="barra">Avalie nossos serviços:</label>
+            <input type="range" id="barra" name="barra" value="5" min="0" max="10">
+        </fieldset>
+        <fieldset>
+            <button type="submit" id="boato" class="btn-primary">Enviar</button>
+            <button type="reset" name="" class="btn-secondary">Limpar</button>
+        </fieldset>
+        </form>
+    </div>
+
+    </div>
+    <footer>
+        <p>Atividade 01 - Versão Abril 2020 - Produzido por @Ambers</p>
+    </footer>
+</body>
+
+</html>
